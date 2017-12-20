@@ -1,0 +1,15 @@
+.com-content .search-table {
+  text-align: left;
+}
+.com-content .search-table tr:first-child {
+  color: black;
+}
+.com-content .btn-f {
+  float: right;
+}
+.com-content .percent {
+  width: 30%;
+}
+.com-content .box-btn ul li:first-child {
+  margin-left: 100px;
+}

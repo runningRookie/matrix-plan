@@ -1,0 +1,23 @@
+.com-content .tab {
+  position: relative;
+}
+.com-content .tab .tab-orange {
+  position: absolute;
+  left: 2px;
+  top: 40px;
+}
+.com-content .flight-table .tr-other {
+  height: 46px;
+}
+.com-content .flight-table .t-left {
+  text-align: left;
+}
+.com-content .flight-table .t-right {
+  text-align: right;
+}
+.com-content .hand-text {
+  width: 130px;
+}
+.com-content .hand-text input {
+  width: 110px;
+}

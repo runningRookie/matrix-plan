@@ -1,0 +1,618 @@
+.m-t-two {
+  margin-top: -2px !important;
+}
+.m-t-four {
+  margin-top: -4px !important;
+}
+.position-relative {
+  position: relative;
+}
+.change-box {
+  position: absolute;
+  width: 23px;
+  height: 100px;
+  top: 48px;
+  left: 417px;
+  background: url(../../../images/circle-angle.png) center no-repeat;
+}
+.cirle-angle {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: #367798;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 40px;
+  left: 9px;
+}
+.time-execl {
+  height: 84px;
+}
+.time-execl .time-list {
+  float: left;
+  height: 84px;
+  width: 38px;
+  border-right: 1px solid #ccc;
+}
+.time-execl .time-list .time-left-click {
+  display: inline-block;
+  width: 40px;
+  height: 84px;
+  background: url(../../../images/back-default.png) center no-repeat;
+  cursor: pointer;
+}
+.time-execl .time-list .time-right-click {
+  display: inline-block;
+  width: 40px;
+  height: 84px;
+  background: url(../../../images/button-back.png) center no-repeat;
+}
+.time-execl .time-list ul {
+  position: absolute;
+  width: 1980px;
+}
+.time-execl .time-list ul li {
+  box-sizing: border-box;
+  float: left;
+  width: 98.6px;
+  height: 84px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom: 1px solid #37AAF0;
+  cursor: pointer;
+}
+.time-middle {
+  overflow: hidden;
+  position: relative;
+}
+.time-li {
+  border: 1px solid #37AAF0;
+  border-bottom: 1px solid #ffffff !important;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1), -2px -2px 8px rgba(0, 0, 0, 0.1);
+}
+.flight-list {
+  border: 1px solid #ccc;
+  clear: both;
+  background: #fff;
+  position: relative;
+}
+.flight-list > p {
+  text-align: center;
+  font-size: 16px;
+  color: #999;
+  line-height: 100px;
+}
+.flight-list > div {
+  width: 100%;
+  min-height: 96px;
+  border-bottom: 1px solid #f0f0f0;
+  line-height: 24px;
+}
+.lower_price {
+  position: absolute;
+  width: 90px;
+  height: 29px;
+  top: 1px;
+  left: -4px;
+  background: url(../../../images/lower_price.png) no-repeat;
+}
+.flight-list-company {
+  width: 220px;
+  float: left;
+  font-size: 16px;
+  color: #666;
+  padding-top: 26px;
+}
+.flight-list-company-img {
+  width: 20px;
+  margin-top: 2px;
+  margin-right: 6px;
+  height: 44px;
+  float: left;
+  margin-left: 16px;
+  line-height: 20px;
+  background: url(https://wx.40017.cn/touch/weixin/flight/img/air_log/20_v3.png?v=2016040101) no-repeat;
+}
+.logo_CA {
+  background-position: 0 0;
+}
+.logo_CZ {
+  background-position: -50px 0;
+}
+.logo_MU {
+  background-position: -100px 0;
+}
+.logo_HU {
+  background-position: 0 -200px;
+}
+.logo_SC {
+  background-position: -100px -100px;
+}
+.logo_3U {
+  background-position: 0 -100px;
+}
+.logo_MF {
+  background-position: -100px -200px;
+}
+.logo_FM {
+  background-position: -50px -100px;
+}
+.logo_GS {
+  background-position: -100px -50px;
+}
+.logo_9C {
+  background-position: left -350px;
+}
+.logo_ZH {
+  background-position: -50px -200px;
+}
+.logo_KN {
+  background-position: 0 -300px;
+}
+.logo_HO {
+  background-position: 0 -50px;
+}
+.logo_BK {
+  background-position: -50px -300px;
+}
+.logo_EU {
+  background-position: -100px -300px;
+}
+.logo_8L {
+  background-position: -50px -50px;
+}
+.logo_CN {
+  background-position: 0 -200px;
+}
+.logo_JD {
+  background-position: -50px -150px;
+}
+.logo_NS {
+  background-position: -50px -250px;
+}
+.logo_G5 {
+  background-position: 0 -150px;
+}
+.logo_PN {
+  background-position: 0 -250px;
+}
+.logo_JR {
+  background-position: -100px -150px;
+}
+.logo_KY {
+  background-position: -50px -350px;
+}
+.logo_TV {
+  background-position: -100px -350px;
+}
+.logo_GJ {
+  background-position: -50px -400px;
+}
+.logo_YI {
+  background-position: -100px -400px;
+}
+.logo_DZ {
+  background-position: 0 -450px;
+}
+.logo_QW {
+  background-position: -50px -450px;
+}
+.logo_DR {
+  background-position: 0px -500px;
+}
+.logo_UQ {
+  background-position: -100px -450px;
+}
+.logo_FU {
+  background-position: -50px -500px;
+}
+.logo_AQ {
+  background-position: -100px -500px;
+}
+.logo_GX {
+  background-position: 0px -550px;
+}
+.logo_Y8 {
+  background-position: -50px -550px;
+}
+.logo_GY {
+  background-position: -100px -550px;
+}
+.logo_RY {
+  background-position: 0px -600px;
+}
+.logo_A6 {
+  background-position: -50px -600px;
+}
+.logo_9H {
+  background-position: -100px -600px;
+}
+.logo_GT {
+  background-position: 0px -650px;
+}
+.flight-list-company > i {
+  font-size: 12px;
+  font-style: normal;
+}
+.flight-list-company > span {
+  font-size: 12px;
+}
+.flight-list-company > p {
+  font-size: 12px;
+  color: #333;
+}
+.flight-list-time {
+  color: #999;
+  float: left;
+  margin-right: 25px;
+  font-size: 12px;
+}
+.flight-list-time > div {
+  width: 72px;
+  margin-top: 28px;
+  text-align: center;
+  float: left;
+  white-space: nowrap;
+}
+.flight-list-time > div > p {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 2px;
+}
+.flight-list-time > p {
+  height: 28px;
+  float: left;
+  width: 60px;
+  background: url(../../../images/jiantou.png) bottom right no-repeat;
+  text-align: center;
+  color: #2c9ee3;
+  line-height: 28px;
+  font-size: 14px;
+  margin-top: 13px;
+  padding: 0 14px;
+}
+.flight-list-time > p > span {
+  cursor: pointer;
+}
+.flight-list-1 {
+  font-size: 12px;
+  color: #999;
+  margin-left: 14px;
+  float: left;
+  margin-top: 28px;
+  line-height: 22px;
+}
+.flight-list-1 > P {
+  color: #666;
+}
+.flight-list-btn {
+  width: 90px;
+  height: 32px;
+  background: #367798;
+  float: right;
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 32px;
+  border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  margin-top: 32px;
+  cursor: pointer;
+}
+.flight-list-btn:hover {
+  background: #1286cc;
+}
+.flight-list-btn > span {
+  color: #f88117;
+  font-size: 12px;
+  display: block;
+}
+.flight-list-money {
+  float: right;
+  margin-right: 32px;
+  height: 96px;
+  line-height: 96px;
+  position: relative;
+}
+.flight-list-money:hover .tab-default-orange-down {
+  display: block;
+}
+.flight-list-money > span {
+  color: #f88117;
+}
+.flight-list-money > span > span {
+  font-size: 26px;
+  margin-right: 3px;
+}
+.flight-list-money .tab-default-orange-down {
+  position: absolute;
+  bottom:72px;
+  width: 150px;
+  background: #fff;
+  display: none;
+}
+.flight-list-money .tab-default-orange-down p {
+  height: 20px;
+  line-height: 20px;
+}
+.flight-list-ul {
+  width: 100%;
+  background: #f5f5f5;
+  clear: both;
+  border-top: 1px solid #ccc;
+}
+.flight-list-ul > div {
+  width: 100%;
+  height: 64px;
+  font-size: 14px;
+  line-height: 64px;
+  border-bottom: 1px dashed #ccc;
+}
+.flight-list-li-type {
+  width: 100px;
+  height: 64px;
+  padding-left: 70px;
+  float: left;
+}
+.flight-list-li-1 {
+  width: 118px;
+  float: left;
+}
+.flight-list-rule {
+  color: #2c9ee3;
+  width: 112px;
+  float: left;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 17px;
+  margin-left: 70px;
+}
+.flight-list-error {
+  color: #f88117;
+  cursor: pointer;
+  display: inline-block;
+}
+.flight-list-error .f-error {
+  padding: 3px 10px;
+  border: 1px solid #f88117;
+}
+.flight-list-error .tab-default {
+  display: block;
+}
+.flight-list-btn2 {
+  width: 92px;
+  height: 34px;
+  background: #f88117;
+  float: right;
+  font-size: 14px;
+  line-height: 34px;
+  border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  margin-right: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.flight-list-btn2-no {
+  width: 92px;
+  height: 34px;
+  background: #d4d4d4;
+  float: right;
+  font-size: 14px;
+  line-height: 34px;
+  border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.flight-list-btn2:hover {
+  background: #e67007;
+}
+.flight-list-money2 {
+  float: right;
+  color: #f88117;
+  font-size: 12px;
+  height: 64px;
+  width: 180px;
+}
+.flight-list-money2 > span {
+  font-size: 26px;
+}
+.flight-list-loading {
+  text-align: center;
+  color: #333;
+  padding: 40px 0;
+}
+#flight-share {
+  position: absolute;
+  z-index: 200;
+  border: 1px solid #8ad3ff;
+  background: #fff;
+  min-width: 140px;
+  display: none;
+}
+#flight-share > span {
+  width: 10px;
+  height: 5px;
+  background: url(//file.40017.cn/assets/tmc/images/tc-top.png) center no-repeat;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+}
+#flight-share > div {
+  text-align: center;
+}
+#flight-share > p {
+  line-height: 40px;
+  padding: 0 20px;
+  color: #333;
+}
+#flight-jinting {
+  position: absolute;
+  top: 200px;
+  z-index: 200;
+  border: 1px solid #8ad3ff;
+  background: #fff;
+  width: 370px;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+}
+#flight-jinting > span {
+  width: 10px;
+  height: 5px;
+  background: url(//file.40017.cn/assets/tmc/images/tc-top.png) center no-repeat;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+}
+.flight-jinting-ul > P {
+  width: 100%;
+  line-height: 30px;
+}
+.flight-jinting-ul > P > a {
+  width: 25%;
+  float: left;
+  color: #666;
+  font-size: 13px;
+}
+.flight-jinting-ul > ul {
+  width: 100%;
+  line-height: 26px;
+  color: #333;
+}
+.flight-jinting-ul > ul > li {
+  width: 100%;
+  overflow: hidden;
+}
+.flight-jinting-ul > ul > li > span {
+  width: 25%;
+  float: left;
+}
+.flight-zhengce {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  color: #666;
+  z-index: 200;
+  border: 1px solid #8ad3ff;
+  background: #fff;
+  width: 370px;
+  padding: 10px;
+  line-height: 26px;
+  display: none;
+}
+.flight-zhengce > span {
+  width: 10px;
+  height: 5px;
+  background: url(//file.40017.cn/assets/tmc/images/tc-top.png) center no-repeat;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+}
+.flight-zhengce > div > p {
+  font-size: 14px;
+  color: #333;
+  line-height: 34px;
+}
+#flight-gaiqian {
+  position: absolute;
+  top: 600px;
+  z-index: 200;
+  border: 1px solid #8ad3ff;
+  background: #fff;
+  width: 470px;
+  padding: 10px;
+  line-height: 26px;
+  color: #333;
+  display: none;
+}
+#flight-gaiqian > span {
+  width: 10px;
+  height: 5px;
+  background: url(//file.40017.cn/assets/tmc/images/tc-top.png) center no-repeat;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+}
+.flight-gaiqian-text {
+  color: #666;
+}
+.flight-gaiqian-text > p {
+  color: #333;
+  font-size: 14px;
+}
+.insurance {
+  position: relative;
+}
+.insurance .tab-default {
+  position: absolute;
+  display: none;
+  left: -8px;
+  top: 30px;
+  width: 150px;
+  background: #fff;
+}
+.insurance .tab-default:before,
+.insurance .tab-default:after {
+  left: 90px;
+}
+.insurance .tab-default .checkbox {
+  display: block;
+}
+.insurance-choose {
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  margin-left: 5px;
+}
+.on .insurance-choose {
+  background: url(../../../images/select_on.png) no-repeat;
+}
+.down .insurance-choose {
+  background: url(../../../images/select_down.png) no-repeat;
+}
+.flight-list-li {
+  position: relative;
+}
+.appoint-price {
+  position: absolute;
+  display: inline-block;
+  height: 26px;
+  width: 84px;
+  top: 18px;
+  right: 296px;
+  background: url(../../../images/agreement_price.png) no-repeat;
+}
+.surpluse-tickets {
+  display: inline-block;
+  font-size: 12px !important;
+  padding-left: 40px;
+  color: #000;
+}
+.time-middle li:hover {
+  color: #367798;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1), -2px -2px 8px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD:webdocs/static/obtstyle/css/flight/fight-search/flight-search.css
+=======
+}
+.form-control .select2-choice {
+  height: 34px;
+  line-height: 34px;
+  padding: 0 0 0 12px
+}
+.come-and-go .op-table tr{
+  height: 56px;
+>>>>>>> 3a0bde5f4c07fbe40fdb86defe99afa7a427616e:webdocs/static/obtstyle/css/flight/flight-search/flight-search.css
+}
+.come-and-go .op-table tr:first-child {
+  height: 60px;
+}

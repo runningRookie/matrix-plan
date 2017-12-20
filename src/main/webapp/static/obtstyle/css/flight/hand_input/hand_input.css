@@ -1,0 +1,14 @@
+.com-content .tab {
+  position: relative;
+}
+.com-content .tab .tab-orange {
+  position: absolute;
+  left: 2px;
+  top: 40px;
+}
+.com-content .hand-text {
+  width: 130px;
+}
+.com-content .hand-text input {
+  width: 110px;
+}

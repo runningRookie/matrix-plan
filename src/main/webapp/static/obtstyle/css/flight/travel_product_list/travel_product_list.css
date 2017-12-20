@@ -1,0 +1,82 @@
+/*color start*/
+/*color end*/
+.com-content .table-header tr:first-child {
+  color: black;
+}
+.com-content .table-header td {
+  text-align: left;
+}
+.com-content .tr-pro-table tr:first-child {
+  color: black;
+}
+.com-content .tr-pro-table td {
+  text-align: left;
+}
+.com-content .tr-pro-table th,
+.com-content .tr-pro-table td {
+  width: 20%;
+  padding: 0;
+  padding-top: 10px;
+}
+.com-content .table-short tr {
+  height: 40px;
+  line-height: 40px;
+}
+.com-content .t-border {
+  border: 1px solid #ddd;
+}
+.com-content .t-border tr {
+  padding: 0;
+  height: 50px;
+  text-align: left;
+}
+.com-content .t-border .tr-title {
+  height: 40px;
+}
+.com-content .t-border .tr-title span {
+  display: inline-block;
+  vertical-align: middle;
+  height: 30px;
+  line-height: 30px;
+}
+.com-content .box-btn ul li:first-child {
+  margin-left: 100px;
+}
+.com-content .box-icon {
+  display: none;
+}
+.com-content .box-icon dl {
+  text-align: center;
+  padding-top: 30px;
+}
+.com-content .box-icon dl dd {
+  display: inline-block;
+}
+.com-content .box-icon dl dd ul {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  margin-right: 30px;
+  font-size: 18px;
+}
+.com-content .box-icon dl dd ul .icon {
+  width: 82px;
+  height: 82px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.com-content .box-icon dl dd .flight .icon {
+  background: url(../../../../img/big_flight_icon.png) center no-repeat;
+}
+.com-content .box-icon dl dd .hotel .icon {
+  background: url(../../../../img/big_hotel_icon.png) center no-repeat;
+}
+.com-content .box-icon dl dd .train .icon {
+  background: url(../../../../img/big_train_icon.png) center no-repeat;
+}
+.com-content .show {
+  display: block;
+}
+.op-table th, .op-table td {
+  vertical-align: top;
+}

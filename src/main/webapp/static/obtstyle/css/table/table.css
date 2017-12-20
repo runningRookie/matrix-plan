@@ -1,0 +1,64 @@
+/*color start*/
+/*color end*/
+.op-table {
+  width: 1060px;
+  font-size: 14px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.op-table tr:first-child {
+  height: 60px;
+  background: #f5f5f5;
+  color: #666666;
+}
+.op-table th,
+.op-table td {
+  font-weight: 400;
+  line-height: 21px;
+  vertical-align: middle;
+  text-align: center;
+}
+.op-table .tr-border-bottom {
+  /*tr的下划线*/
+  border-bottom: 1px solid #cccccc;
+}
+.op-table .tr-other {
+  /*第一个tr除外的意思*/
+  height: 68px;
+  color: black;
+  vertical-align: middle;
+}
+.op-table .tr-other p {
+  float: left;
+}
+.op-table .tr-other .text-show {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+}
+.tr-border-bottom {
+  /*tr的下划线*/
+  border-bottom: 1px solid #cccccc;
+}
+.op-table-small {
+  width: 300px !important;
+  text-align: center;
+}
+.op-table-small tr {
+  height: 30px;
+  line-height: 30px;
+}
+.op-table-small tr:first-child {
+  color: #666666;
+}
+/*table-10*/
+.table-ten tr:nth-of-type(even) {
+  background: #f5f5f5;
+}
+/*table13列的里面特有的类名和样式*/
+.table-thirteen tr:nth-of-type(even),
+.table-four tr:nth-of-type(even) {
+  background: #fff8f1;
+}

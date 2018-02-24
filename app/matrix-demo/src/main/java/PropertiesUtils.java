@@ -2,9 +2,7 @@
  * LY.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package zhangyuyao.io;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -18,9 +16,7 @@ import java.util.Properties;
 public class PropertiesUtils {
     public static void main(String[] args) throws IOException {
 
-        File file = new File("databaseConnection.properties");
-
-        FileInputStream fileInputStream = new FileInputStream(file);
+        FileInputStream fileInputStream = new FileInputStream("databaseConnection.properties");
 
         Properties properties = new Properties();
 
@@ -29,5 +25,6 @@ public class PropertiesUtils {
         for (String name: properties.stringPropertyNames()) {
             System.out.println(properties.getProperty(name));
         }
+
     }
 }

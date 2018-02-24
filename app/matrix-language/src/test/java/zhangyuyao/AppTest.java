@@ -1,5 +1,10 @@
 package zhangyuyao;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -34,5 +39,25 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+    }
+
+    public void test1(){
+        System.out.println("matrix");
+    }
+
+    public void test2() throws IOException {
+
+        File file = new File("databaseConnection.properties");
+
+        FileInputStream fileInputStream = new FileInputStream(file);
+
+        Properties properties = new Properties();
+
+        properties.load(fileInputStream);
+
+        for (String name: properties.stringPropertyNames()) {
+            System.out.println(properties.getProperty(name));
+        }
+
     }
 }

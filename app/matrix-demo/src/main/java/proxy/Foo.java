@@ -9,4 +9,17 @@ package proxy;
  * @version $Id: Foo.java, v 0.1 2018年1月31日 下午3:21:41 zyy43688 Exp $
  */
 public interface Foo {
+    /**
+     * 自我介绍
+     * 
+     * @return
+     */
+    String introduction();
+
+    /**
+     * 自我介绍
+     * 
+     * @param msg
+     */
+    void introduction(String msg);
 }

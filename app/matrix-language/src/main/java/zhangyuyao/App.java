@@ -11,7 +11,7 @@ import zhangyuyao.generic.Parent;
 public class App {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext(new String[] { "classpath:spring.xml" }, true, null);
-        Parent parent = (Parent)context.getBean("paren");
+        Parent parent = (Parent) context.getBean("paren");
         parent.say();
     }
 }

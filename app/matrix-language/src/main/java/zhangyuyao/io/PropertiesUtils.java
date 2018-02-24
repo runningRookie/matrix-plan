@@ -4,9 +4,8 @@
  */
 package zhangyuyao.io;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.URL;
 import java.util.Properties;
 
 /**
@@ -16,17 +15,18 @@ import java.util.Properties;
  * @version $Id: PropertiesUtils.java, v 0.1 2018年2月24日 上午11:23:20 zyy43688 Exp $
  */
 public class PropertiesUtils {
+
     public static void main(String[] args) throws IOException {
 
-        File file = new File("databaseConnection.properties");
+        URL url = PropertiesUtils.class.getResource("/databaseConnection.properties");
 
-        FileInputStream fileInputStream = new FileInputStream(file);
+        System.out.println(url.getPath());
 
         Properties properties = new Properties();
 
-        properties.load(fileInputStream);
+        properties.load(PropertiesUtils.class.getResourceAsStream("/databaseConnection.properties"));
 
-        for (String name: properties.stringPropertyNames()) {
+        for (String name : properties.stringPropertyNames()) {
             System.out.println(properties.getProperty(name));
         }
     }

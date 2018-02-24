@@ -1,3 +1,4 @@
+
 /**
  * LY.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
@@ -14,6 +15,11 @@ import java.util.Properties;
  * @version $Id: PropertiesUtils.java, v 0.1 2018年2月24日 上午11:23:20 zyy43688 Exp $
  */
 public class PropertiesUtils {
+    /**
+     * 
+     * @param args
+     * @throws IOException
+     */
     public static void main(String[] args) throws IOException {
 
         FileInputStream fileInputStream = new FileInputStream("databaseConnection.properties");
@@ -22,7 +28,7 @@ public class PropertiesUtils {
 
         properties.load(fileInputStream);
 
-        for (String name: properties.stringPropertyNames()) {
+        for (String name : properties.stringPropertyNames()) {
             System.out.println(properties.getProperty(name));
         }
 

@@ -72,17 +72,15 @@ public class GenericDemo {
     }
 }
 
-
 /**
  * 泛型
  * 类定义的时候不指定类型
  * 类型由使用者制定
  */
 
-
 // 泛型方法和类型通配符
 // 上限和下限
-// extends && supper
+// extend && supper
 // 方法上只能设置extends
 // 类上可以设置extends和supper
 // 通配符可以配合extends和super一起使用
@@ -90,4 +88,3 @@ public class GenericDemo {
 // super设置的类的下限，说明必须是指定类的父类型才能传入
 // 泛型方法和泛型类都只能与extends配合使用
 // 使用规则和通配符下的是一致的
-

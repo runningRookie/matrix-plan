@@ -19,9 +19,7 @@ public class JdbcDemo {
         System.out.println("start");
         // 循环一百次创建一百个线程
         for (int i = 0; i < 100; i++) {
-            new Thread(() -> {
-                grabDemo.grab();
-            }).start();
+            new Thread(() -> grabDemo.grab()).start();
         }
         System.out.println("end");
     }

@@ -14,6 +14,63 @@ import java.util.List;
  */
 public class ListDemo {
     public static void main(String[] args) {
+        new ListDemo().test3();
+    }
+
+    public void test1() {
+        List<String> list = new ArrayList<>();
+        list.add("a");
+        list.add("a");
+        list.add("b");
+        list.add("c");
+        list.add("d");
+
+        for (int i = 0; i < list.size(); i++) {
+            if ("a".equals(list.get(i))) {
+                list.remove(i);
+                i--;
+            }
+        }
+
+        System.out.println(list.toString());
+    }
+
+    public void test2() {
+        List<String> list = new ArrayList<>();
+        list.add("a");
+        list.add("a");
+        list.add("b");
+        list.add("c");
+        list.add("d");
+
+        Iterator<String> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            if ("a".equals(iterator.next())) {
+                iterator.remove();
+            }
+        }
+
+        System.out.println(list.toString());
+    }
+
+    public void test3() {
+        List<String> list = new ArrayList<>();
+        list.add("a");
+        list.add("a");
+        list.add("b");
+        list.add("c");
+        list.add("d");
+
+        for (String string : list) {
+            if ("b".equals(string)) {
+                list.remove("b");
+            }
+        }
+
+        System.out.println(list.toString());
+    }
+
+    public void test() {
         List<Integer> list = new ArrayList<>();
 
         list.add(1);

@@ -13,6 +13,7 @@
     <modules>
         <module>app/matrix-demo</module>
         <module>app/matrix-web</module>
+        <module>app/matrix-language</module>
     </modules>
 
     <properties>

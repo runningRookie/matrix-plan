@@ -5,6 +5,7 @@
 package zhangyuyao.io;
 
 import java.util.Iterator;
+import java.util.Spliterator;
 
 /**
  * @author zyy43688
@@ -23,10 +24,12 @@ public class MyIterableDemo {
             System.out.println(string);
         }
 
-
         Iterator<String> iterator = myIterable.iterator();
-        while(iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+
+        Spliterator<String> spliterator = myIterable.spliterator();
+
     }
 }

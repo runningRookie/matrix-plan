@@ -16,6 +16,7 @@ public class MyIterable<T> implements Iterable<T> {
     private T[] names;
     private int index;
 
+    @SuppressWarnings({ "unchecked" })
     public MyIterable(int size) {
         names = (T[]) new Object[size];
     }

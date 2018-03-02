@@ -5,6 +5,7 @@
 package zhangyuyao.io;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
@@ -14,7 +15,7 @@ import java.util.List;
  */
 public class ListDemo {
     public static void main(String[] args) {
-        new ListDemo().test3();
+        new ListDemo().test1();
     }
 
     public void test1() {
@@ -25,6 +26,11 @@ public class ListDemo {
         list.add("c");
         list.add("d");
 
+        String[] chars = new String[0];
+        System.out.println(chars == list.toArray(chars));
+
+        System.out.println(Arrays.toString(chars));
+
         for (int i = 0; i < list.size(); i++) {
             if ("a".equals(list.get(i))) {
                 list.remove(i);
@@ -33,6 +39,14 @@ public class ListDemo {
         }
 
         System.out.println(list.toString());
+
+        System.out.println(list.size());
+        list.add(list.size(), "foo");
+        System.out.println(list.toString());
+
+        list.replaceAll(String::toUpperCase);
+        System.out.println(list.toString());
+
     }
 
     public void test2() {

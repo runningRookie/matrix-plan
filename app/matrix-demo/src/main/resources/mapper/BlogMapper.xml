@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!---->
+<mapper namespace="mybatis.mapper.BlogMapper">
+    <!--配置的SQL语句-->
+    <select id="selectBlog" resultType="mybatis.object.Blog">SELECT *
+                                                             FROM Blog
+                                                             WHERE id = #{id}</select>
+</mapper>
+
+
+<!--
+Mapper的namespace属性用来定义命名空间
+
+每一条语句都应该有一个唯一的id属性进行标识
+
+resultType结果类型，指的是语句执行的结果直接转换为对应的类型
+
+这个很重要，是ORM框架最直接的体现，他定义了记录到对象的映射关系
+
+语句中的参数通过#{parameterName}引入
+
+-->

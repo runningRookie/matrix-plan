@@ -2,7 +2,7 @@
  * LY.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package dal.object;
+package mybatis.object;
 
 /**
  * @author zyy43688

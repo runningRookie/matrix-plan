@@ -4,7 +4,8 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
-    <properties resource="properties/config.properties">
+    <!--MyBatis配置文件-->
+    <properties resource="properties/MyBatisConfig.properties"><!--引入的外部配置文件-->
         <property name="driver" value="${driver}"/>
         <property name="url" value="${url}"/>
         <property name="username" value="${username}"/>
@@ -23,7 +24,9 @@
         </environment>
     </environments>
 
+    <!--SQL映射文件-->
     <mappers>
-        <mapper resource="example/BlogMapper.xml"/>
+        <mapper resource="mapper/BlogMapper.xml"/>
     </mappers>
+
 </configuration>

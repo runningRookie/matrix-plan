@@ -11,7 +11,7 @@ public class App {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext(new String[] { "classpath:spring.xml" }, true, null);
         Demo demo = (Demo) context.getBean("demo");
-        Example example = (Example) context.getBean("example");
+        Example example = (Example) context.getBean("mapper");
         Foo foo = (Foo) context.getBean("foo");
         demo.say();
         example.say();

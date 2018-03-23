@@ -47,17 +47,17 @@ public class AppTest
 
     public void test2() throws IOException {
 
-        File file = new File("databaseConnection.properties");
-
-        FileInputStream fileInputStream = new FileInputStream(file);
-
-        Properties properties = new Properties();
-
-        properties.load(fileInputStream);
-
-        for (String name: properties.stringPropertyNames()) {
-            System.out.println(properties.getProperty(name));
-        }
+//        File file = new File("databaseConnection.properties");
+//
+//        FileInputStream fileInputStream = new FileInputStream(file);
+//
+//        Properties properties = new Properties();
+//
+//        properties.load(fileInputStream);
+//
+//        for (String name: properties.stringPropertyNames()) {
+//            System.out.println(properties.getProperty(name));
+//        }
 
     }
 }
